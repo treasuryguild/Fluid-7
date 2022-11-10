@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 env: 
   fundR: ${{ fromJSON(github.event.issue.body).fund }} 
-  GitB: "fluid-7"
+  GitB: "catalyst-swarm/transactions/bounty-partners/fluid-7"
  # schedule:
     # run every 8 hours
   #  - cron:  '0 0,8,16 * * *'
